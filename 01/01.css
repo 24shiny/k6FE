@@ -1,0 +1,52 @@
+header button{
+    position:relative;
+    background:blue;
+    color: aliceblue;
+    border-radius: 10px;
+    cursor:pointer;    
+}
+
+header nav ul{
+    display:flex;
+    justify-content: right;
+}
+
+header nav ul li{
+    padding:5px;
+    
+}
+
+header li{
+    list-style:none;
+}
+
+footer{
+    background-color: black;
+    color:aliceblue
+}
+
+img{
+    float: left;
+    padding-right: 3%;
+    padding-left:3%;
+}
+
+fieldset{
+    background-color: aqua;
+}
+
+div{
+    height: 250px;
+    margin-left: 10px;
+    background-color: aliceblue;
+    padding-left: 20px;
+    width: 1000px;
+    height: 100;
+}
+
+.objec::after{
+    content:'';
+    display: block;
+    clear: both;
+}
+
