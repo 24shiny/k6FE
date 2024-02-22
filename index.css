@@ -9,7 +9,7 @@ main{
 }
 
 header{
-    background-color:blue;
+    background-color:gold;
     color: aliceblue;
     display: flex;
     justify-content: space-between;
@@ -38,4 +38,37 @@ article li{
     display: flex;
     align-items: center;
     padding-left: 20px;
+}
+
+article li:hover{
+    background-color: salmon;
+    color: aliceblue;
+}
+
+article a{
+    text-decoration: none;
+}
+
+
+
+section h1{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+section div{
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid salmon;
+    padding: 20px;
+    margin: 10px;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }

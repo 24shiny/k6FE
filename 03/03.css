@@ -1,0 +1,19 @@
+button{
+    width: 100px;
+    height: 40px;
+    background-color: slateblue;
+    color: aliceblue;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: rgb(206, 62, 62);
+    color: aliceblue;
+    cursor: pointer;
+}
+
+h2{
+    font-size: medium;
+    color: brown;
+}
