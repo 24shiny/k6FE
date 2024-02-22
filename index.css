@@ -1,0 +1,41 @@
+*{
+    padding: 0px;
+    margin:0px;
+}
+
+main{
+    width: 60%;
+    margin-left:20px;
+}
+
+header{
+    background-color:blue;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+article ul{
+    width: 90%; 
+    /* 60% > 70% */
+    display: flex;
+    flex-direction: column;
+    background-color: greenyellow;
+    list-style: none;
+}
+article li{
+    height: 50px;
+    border: 1px dotted gray;
+    /* the following two lines must go together */
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
