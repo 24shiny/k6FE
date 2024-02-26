@@ -1,0 +1,29 @@
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+select{
+    margin-right: 20px;
+}
+
+input[type=number]{
+    display: inline-flex;
+    color: tomato;
+}
+
+label{
+    font-size: large;
+    font-style: italic;
+}
+
+.lowest{
+    border: 0px;
+}
