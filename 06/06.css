@@ -1,0 +1,36 @@
+input[type=number]{
+    display: inline-flex;
+    border-radius: 5px;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+}
+
+section div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+section div div{
+    display: flex;
+    flex-direction:row;
+}
+
+button{
+    border-radius: 5px;
+    width: 100px;
+    height: 50px;
+    margin-left: 20px;
+    padding: 5px;
+}
+
+#msg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    font-size: 20px;
+}
