@@ -26,7 +26,7 @@ for(let i in arr){
 
 // map function for arrays
 const arr2 = arr.map((v,i) => {
-    console.log(v); // equivalent to "for of"
+    console.log(v); // equivalent to "for of", yet recommended to use
     console.log(i); // values first, indices afterwards
     return v+"🧀";
 })
@@ -43,7 +43,7 @@ let obj = {'🍙':2, '🥠':6,};
 console.log(obj);
 console.log(obj['🍙']);
 
-for(let c of Object.entries(obj)){
+for(let c of Object.entries(obj)){ // Object.keys(obj), Object.values(obj)
     console.log("obj's key",c[0]);
     console.log("obj's value",c[1]);
 }
@@ -57,3 +57,8 @@ for(let [k,v] of Object.entries(obj)){
 for(let i in obj){
     console.log(obj[i]);
 }
+
+console.log(Obejct.keys(obj));
+console.log(Object.values(obj));
+
+let arr4 = Object.keys(obj).map( k => k+obj[k]);
