@@ -24,6 +24,20 @@ for(let i in arr){
     console.log(arr[i]);
 }
 
+// create arr1
+let arr1 = [0,0,0,0,0,0,];
+for(let i in arr){
+    arr1[i] = arr[i];
+}
+// create arr
+let arr5 = [];
+console.log("arr2 : ", arr5);
+
+for(let item of arr){
+    arr5.push(item);
+}
+console.log("by the for loop : ", arr5);
+
 // map function for arrays
 const arr2 = arr.map((v,i) => {
     console.log(v); // equivalent to "for of", yet recommended to use

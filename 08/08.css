@@ -1,0 +1,56 @@
+section div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+section div div{
+    display: flex;
+    flex-direction:row;
+}
+
+button{
+    margin: 5px;
+    width: 30px;
+    height: 30px;
+}
+
+button{
+    width: 300px;
+    height: 8cqh;
+}
+
+section span{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border: solid;
+    /* background-color: aquamarine; */
+    border-radius: 50%;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+#sp0{
+    background-color:antiquewhite;
+}
+#sp1{
+    background-color:rgb(230, 147, 39);
+}
+#sp2{
+    background-color:rgb(54, 227, 69);
+}
+#sp3{
+    background-color:rgb(135, 105, 198);
+}
+#sp4{
+    background-color:rgb(176, 67, 118);
+}
+#sp5{
+    background-color:rgb(101, 97, 219);
+}
+#sp6{
+    background-color:rgb(224, 99, 68);
+}
